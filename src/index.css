@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  background-color: hsl(210, 46%, 95%);
+  min-height: 100vh;
+}
+@layer components {
+}
