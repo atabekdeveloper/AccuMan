@@ -17,5 +17,5 @@ export interface IAuthUserItem {
   image: string;
 }
 export interface IAuthLoginGet extends IAuthUserItem {
-  token: string;
+  accessToken: string;
 }

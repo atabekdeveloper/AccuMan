@@ -33,7 +33,7 @@ export const Login: React.FC = () => {
         variant: 'success',
         anchorOrigin: { vertical: 'top', horizontal: 'center' },
       });
-      signIn({ token: loginData?.token });
+      signIn({ token: loginData?.accessToken });
       navigate('/');
       confetti({
         particleCount: 100,
